@@ -4,7 +4,7 @@ import requests
 
 app = FastAPI()
 
-DEEPSEEK_API_URL = "https://router.cheap/v1/chat/completions"
+DEEPSEEK_API_URL = "https://router.cheap/v1"
 DEEPSEEK_API_KEY = os.getenv("DEEPSEEK_API_KEY")
 
 @app.post("/")
